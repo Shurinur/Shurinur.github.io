@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Wykorzystanie formularzy na stronie</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Work+Sans:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Podkova:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <header>
+        <button id="prakty" onclick="window.location.href = 'index.html';"><b>Praktyki 2020</b></button>
+    </header>
+    <section>
+        <h5>Systemy Operacyjne</h5>
+        <a class="tematy" href="t1.html">Przepisy BHP</a><br>
+        <a class="tematy" href="t2.html">Instalacja systemu operacyjnego na komputerze</a><br>
+        <a class="tematy" href="t3.html">Instalacja oprogramowania biurowego oraz graficznego</a><br>
+        <a class="tematy" href="t4.html">Czytanie dokumentacji technicznej komputera</a><br>
+        <a class="tematy" href="t5.html">Podłączanie urządzeń peryferyjnych do komputera</a><br>
+        <h5>DiNUK</h5>
+        <a class="tematy" href="t6.html">Montaż komputera dla biura i gracza</a><br>
+        <a class="tematy" href="t7.html">Testowanie i diagnozowanie sprzętu komputerowego</a><br>
+        <a class="tematy" href="t8.html">Podłączanie drukarki do komputera</a><br>
+        <a class="tematy" href="t9.html">Sieć LAN i rodzaje sieci</a><br>
+        <a class="tematy" href="t10.html">Korzystanie z zasobów sieci Internet i poczty </a><br>
+        <h5>Bazy danych</h5>
+        <a class="tematy" href="t11.html">Projektowanie relacyjnej bazy danych</a><br>
+        <a class="tematy" href="t12.html">Tworzenie tabel przechowujących dane</a><br>
+        <a class="tematy" href="t13.html">Budowa formularzy dodających dane do bazy</a><br>
+        <a class="tematy" href="t14.html">Kwerendy wybierające dane z bazy danych</a><br>
+        <a class="tematy" href="t15.html">Raporty w bazie danych</a><br>
+        <h5>WiAI</h5>
+        <a class="tematy" href="t16.html">Tworzenie serwisu internetowego z wykorzystaniem CSS</a><br>
+        <a class="tematy" href="t17.html">Wykorzystanie bloków przy tworzeniu serwisu</a><br>
+        <a class="tematy" href="t18.html">Wykorzystanie menu w serwisie internetowym</a><br>
+        <a class="tematy" href="t19.html">Tworzenie galerii na potrzeby serwisu</a><br>
+        <a class="tematy" href="t20.html"><b>Tworzenie formularzy w serwisie internetowym</b></a><br>
+    </section>
+    <aside>
+        <h1 class="bigt">Formularze</h1>
+        <p class="txt">Formularze tworzymy podobnie jak tabele, zaczynamy od tagów <span class="zolty">form ... /form </span>, w których się wszystko zamyka, następnie dodajemy pola<span class="zolty"> input</span> - jest to zwykłe pole do wpisywania tekstu, można do niego przypisać właściwości np. by ograniczyc je tylko do numerów, lub by pokazywało szary tekst gdy nic nie jest w nim wpisane. Przyciski dodajemy również za pomocą <i>input</i> lecz w nim dodajemy własność <span class="zolty">type="button"</span> i voilà mamy nasz formularz.</p>
+        
+        <h3 class="lilt">Przykłady</h3>
+            <form>
+                <input placeholder="Tekst pomocniczy"><br><br>
+                <input placeholder="Pole numeryczne" type="number"><br><br>
+                <input placeholder="Pole z hasłem" type="password"><br><br>
+                <input type="radio" name="opcja"> - pole wyboru opcji pierwszej<br>
+                <input type="radio" name="opcja"> - pole wyboru opcji drugiej<br><br>
+                <input type="range"> - zakres<br><br>
+                <input type="time"> - wybór czasu<br>
+                <input type="date"> - data<br>
+                
+            </form>
+        <p class="txt">Można również dodać przyciski o różnych funkcjach</p>
+            <form>
+                <input type="button" value="klik"><br>
+                <input type="reset" value="Usuń"> - przycisk, dzięki któremu wymażemy wszystkie wypełnione pola<br>
+                <input type="submit" value="Wyślij"> - za pomocą tego przycisku możemy wysłać dane z formularzy do uprzednio przygotowanej bazy danych
+            </form>
+        <p class="txt">Oczywiście jeśli tylko chcemy to możemy zmieniać własności naszych przycisków i pól zgodnie z naszym upodobaniem. Te które są wyświetlone wyżej są całkowicie lub prawie nieedytowane.</p>
+    </aside>
+    <footer>
+        Strony opracował Maks Hojański 05.2020
+    </footer>
+</body>
+</html>

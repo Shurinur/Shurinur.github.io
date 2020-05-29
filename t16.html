@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Wykorzystanie CSS w tworzeniu strony</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Work+Sans:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Podkova:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <header>
+        <button id="prakty" onclick="window.location.href = 'index.html';"><b>Praktyki 2020</b></button>
+    </header>
+    <section>
+        <h5>Systemy Operacyjne</h5>
+        <a class="tematy" href="t1.html">Przepisy BHP</a><br>
+        <a class="tematy" href="t2.html">Instalacja systemu operacyjnego na komputerze</a><br>
+        <a class="tematy" href="t3.html">Instalacja oprogramowania biurowego oraz graficznego</a><br>
+        <a class="tematy" href="t4.html">Czytanie dokumentacji technicznej komputera</a><br>
+        <a class="tematy" href="t5.html">Podłączanie urządzeń peryferyjnych do komputera</a><br>
+        <h5>DiNUK</h5>
+        <a class="tematy" href="t6.html">Montaż komputera dla biura i gracza</a><br>
+        <a class="tematy" href="t7.html">Testowanie i diagnozowanie sprzętu komputerowego</a><br>
+        <a class="tematy" href="t8.html">Podłączanie drukarki do komputera</a><br>
+        <a class="tematy" href="t9.html">Sieć LAN i rodzaje sieci</a><br>
+        <a class="tematy" href="t10.html">Korzystanie z zasobów sieci Internet i poczty </a><br>
+        <h5>Bazy danych</h5>
+        <a class="tematy" href="t11.html">Projektowanie relacyjnej bazy danych</a><br>
+        <a class="tematy" href="t12.html">Tworzenie tabel przechowujących dane</a><br>
+        <a class="tematy" href="t13.html">Budowa formularzy dodających dane do bazy</a><br>
+        <a class="tematy" href="t14.html">Kwerendy wybierające dane z bazy danych</a><br>
+        <a class="tematy" href="t15.html">Raporty w bazie danych</a><br>
+        <h5>WiAI</h5>
+        <a class="tematy" href="t16.html"><b>Tworzenie serwisu internetowego z wykorzystaniem CSS</b></a><br>
+        <a class="tematy" href="t17.html">Wykorzystanie bloków przy tworzeniu serwisu</a><br>
+        <a class="tematy" href="t18.html">Wykorzystanie menu w serwisie internetowym</a><br>
+        <a class="tematy" href="t19.html">Tworzenie galerii na potrzeby serwisu</a><br>
+        <a class="tematy" href="t20.html">Tworzenie formularzy w serwisie internetowym</a><br>
+    </section>
+    <aside>
+        <h1 class="bigt">CSS w stronach</h1>
+        <p class="txt"><span class="definicja">CSS -</span> <span class="zolty">C</span>ascading <span class="zolty">S</span>tyle <span class="zolty">S</span>heet, czyli inaczej kaskadowe arkusze stylów. Jeśli chcemy by nasza strona wyglądała choć troche tak jak w naaszej wyobraźni, a nie jak w latach 90' to trzeba bedzie je wykorzystać, gdyż dzieki nim możemy dokładniej dopracować proste wizualne części strony, takie jak czcionka, grubość lini w tabelach lub też bardziej skomplikowane tj. animacje czy zmiany zachowania tekstu podczas najechania na niego kursorem. </p>
+        <p class="txt">Przy większych stronach najlepiej będzie jeśli do naszego <i>"index.html</i>" podłączymy osobny arkusz stylów, oszczędza nam to masę czasu. W CSS posługujemy się:
+            <ul class="podpunkt">
+                <li id="red"><span class="definicja">Selektorami -</span> Czyli znacznikami, dzięki którym interpreter odnajdzie się w kodzie HTML.</li>
+                    <hr class="przedzial">
+                <li id="green"><span class="definicja">Nawiasami klamrowymi { } -</span> Wytępują zaraz po selektorze, interpreter traktuje je jak otwarcie/zamknięcie bloku z kodem do danego selektora/li>
+                    <hr class="przedzial">
+                <li id="blue"><span class="definicja">Właściwości -</span> Określają co chcemy zmienić w wyglądzie naszej strony</li>
+                    <hr class="przedzial">
+                <li id="purple"><span class="definicja">Wartości właściwości -</span>Występują po właściwości, poprzedzone są dwukropkiem, i zakończone średnikiem</li>
+            </ul>
+            <h5 class="lilt">Przykład</h5>
+            &nbsp;&nbsp;<span id="red">Selektor</span><span id="green">{</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="blue">Właściwość:</span> <span id="purple">Wartość;</span><br>&nbsp;&nbsp;<span id="green">}</span>
+        </p>
+    </aside>
+    <footer>
+        Strony opracował Maks Hojański 05.2020
+    </footer>
+</body>
+</html>

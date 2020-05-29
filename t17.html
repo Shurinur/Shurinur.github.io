@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Wykorzystanie bloków przy tworzeniu serwisu</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Work+Sans:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Podkova:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <header>
+        <button id="prakty" onclick="window.location.href = 'index.html';"><b>Praktyki 2020</b></button>
+    </header>
+    <section>
+        <h5>Systemy Operacyjne</h5>
+        <a class="tematy" href="t1.html">Przepisy BHP</a><br>
+        <a class="tematy" href="t2.html">Instalacja systemu operacyjnego na komputerze</a><br>
+        <a class="tematy" href="t3.html">Instalacja oprogramowania biurowego oraz graficznego</a><br>
+        <a class="tematy" href="t4.html">Czytanie dokumentacji technicznej komputera</a><br>
+        <a class="tematy" href="t5.html">Podłączanie urządzeń peryferyjnych do komputera</a><br>
+        <h5>DiNUK</h5>
+        <a class="tematy" href="t6.html">Montaż komputera dla biura i gracza</a><br>
+        <a class="tematy" href="t7.html">Testowanie i diagnozowanie sprzętu komputerowego</a><br>
+        <a class="tematy" href="t8.html">Podłączanie drukarki do komputera</a><br>
+        <a class="tematy" href="t9.html">Sieć LAN i rodzaje sieci</a><br>
+        <a class="tematy" href="t10.html">Korzystanie z zasobów sieci Internet i poczty </a><br>
+        <h5>Bazy danych</h5>
+        <a class="tematy" href="t11.html">Projektowanie relacyjnej bazy danych</a><br>
+        <a class="tematy" href="t12.html">Tworzenie tabel przechowujących dane</a><br>
+        <a class="tematy" href="t13.html">Budowa formularzy dodających dane do bazy</a><br>
+        <a class="tematy" href="t14.html">Kwerendy wybierające dane z bazy danych</a><br>
+        <a class="tematy" href="t15.html">Raporty w bazie danych</a><br>
+        <h5>WiAI</h5>
+        <a class="tematy" href="t16.html">Tworzenie serwisu internetowego z wykorzystaniem CSS</a><br>
+        <a class="tematy" href="t17.html"><b>Wykorzystanie bloków przy tworzeniu serwisu</b></a><br>
+        <a class="tematy" href="t18.html">Wykorzystanie menu w serwisie internetowym</a><br>
+        <a class="tematy" href="t19.html">Tworzenie galerii na potrzeby serwisu</a><br>
+        <a class="tematy" href="t20.html">Tworzenie formularzy w serwisie internetowym</a><br>
+    </section>
+    <aside>
+        <h1 class="bigt">Bloki</h1>
+        <p class="txt">Jest modernistyczne podejście do designu strony. Bloki pomagają poukładać stronę, nie tylko fizycznie, lecz także wizualnie, każdemu z bloków, możemy nadać inną barwę, przy odpowiednim dobraniu kolorów, nawet jeśli strona nie ma żadnych informacji samo patrzenie sprawia nam przyjemność</p>
+        <p class="txt">Ta strona również jest poskładana z bloków - korzystając z tagów div/section, można łatwo dodać nieskonfigurowany blok do naszej strony:</p>
+        <div>Ten tekst jest napisany w bloku bez żadnych atrybutów</div>
+        <p class="txt">Co się stanie gdy dodamy, np. wartość tła w CSS do tego bloku?</p>
+        <div id="pdiv">Ten tekst jest napisany w bloku z pomarańczowym tłem</div>
+        <p class="txt">Można również dodać określoną wysokość/szerokość bloku</p>
+        <div id="pdiv1">Ten blok ma pomarańczowe tło i wymiary 150px X 150px</div>
+        <p class="txt">Ale jak dać blok jeden obok drugiego? Skopiujmy właściwości bloku pomarańczowego do nowego bloku fioletowego</p>
+        <div id="pdiv1">Pomarańczowy</div><div id="pdiv2">Fioletowy</div>
+        <p class="txt">Tu trzeba wykorzystać właściwość <span class="zolty">Float</span> z wartością <span class="zolty">Left</span> w dwóch blokach, dzięki niej otrzymamy taki wynik:</p>
+        <div id="pdiv11">Pomarańczowy</div><div id="pdiv21">Fioletowy</div>
+        <p class="txt">Miej na uwadze że kolejny blok, który będziesz chciał mieć pod blokami z właściwością Float musi otrzymać właściwość <span class="zolty">Clear: both;</span></p>
+    </aside>
+    <footer>
+        Strony opracował Maks Hojański 05.2020
+    </footer>
+</body>
+</html>
